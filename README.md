@@ -22,7 +22,7 @@
 ## composer安装
 
 ``` bash
-composer require alibaba/nacos
+composer require alibaba/nacos-v2
 ```
 
 ## 使用crontab拉取配置文件
