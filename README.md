@@ -1,4 +1,4 @@
-# 阿里巴巴nacos配置中心-PHP客户端
+# 阿里巴巴nacos配置中心-PHP客户端(添加授权逻辑)
 
 [Nacos配置中心](https://github.com/alibaba/nacos)的PHP客户端，更多关于Nacos配置中心的介绍，可以查看[Nacos配置中心Wiki](https://github.com/alibaba/nacos/wiki)。
 
@@ -7,7 +7,7 @@
 1. 容错兜底
 2. 容易上手
 3. 技术支持，有问题可加作者微信: suxiaolinKing
-4.添加curl鉴权功能
+4. 添加curl鉴权功能
 
 ### 开发计划
 
