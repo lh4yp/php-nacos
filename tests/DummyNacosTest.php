@@ -21,6 +21,8 @@ class DummyNacosTest extends TestCase
             "dummy_dev",
             "DUMMY",
             "DUMMY_GROUP",
+            "",
+            "",
             ""
         )->runOnce();
         $this->assertEmpty($config);
@@ -33,6 +35,8 @@ class DummyNacosTest extends TestCase
             "dummy_dev",
             "DUMMY",
             "DUMMY_GROUP",
+            "",
+            "",
             ""
         )->listener();
     }

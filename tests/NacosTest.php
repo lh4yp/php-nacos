@@ -31,7 +31,7 @@ class NacosTest extends TestCase
                 "dev",
                 "LARAVEL",
                 "DEFAULT_GROUP",
-                "",
+                ""
             )
         );
     }
