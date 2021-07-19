@@ -43,7 +43,7 @@ class Nacos
 
     public function runOnce()
     {
-        return call_user_func_array([self::$clientClass, "get"], [NacosConfig::getEnv(), NacosConfig::getDataId(), NacosConfig::getGroup(), NacosConfig::getTenant(),NacosConfig::getUserName(),NacosConfig::getPassword()]);
+        return call_user_func_array([self::$clientClass, "get"], [NacosConfig::getEnv(), NacosConfig::getDataId(), NacosConfig::getGroup(),NacosConfig::getUserName(),NacosConfig::getPassword(), NacosConfig::getTenant()]);
     }
 
     public function listener()
